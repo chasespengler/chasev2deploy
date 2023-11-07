@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/chasev2deploy/static/css/main.41a50ec9.css",
-    "main.js": "/chasev2deploy/static/js/main.bc0df159.js",
+    "main.css": "/chasev2deploy/static/css/main.73e7817c.css",
+    "main.js": "/chasev2deploy/static/js/main.1016baba.js",
     "static/js/787.654a19a4.chunk.js": "/chasev2deploy/static/js/787.654a19a4.chunk.js",
     "static/media/topview_ocean.mp4": "/chasev2deploy/static/media/topview_ocean.ad276da55aff30787b6c.mp4",
     "static/media/db_beach.JPEG": "/chasev2deploy/static/media/db_beach.f3f977ba59f94f10df59.JPEG",
@@ -15,12 +15,12 @@
     "static/media/chess-cover.jpg": "/chasev2deploy/static/media/chess-cover.764920f8ec74f9522a60.jpg",
     "static/media/flight_delay.jpg": "/chasev2deploy/static/media/flight_delay.42b9a3b5ce47905d9f1e.jpg",
     "index.html": "/chasev2deploy/index.html",
-    "main.41a50ec9.css.map": "/chasev2deploy/static/css/main.41a50ec9.css.map",
-    "main.bc0df159.js.map": "/chasev2deploy/static/js/main.bc0df159.js.map",
+    "main.73e7817c.css.map": "/chasev2deploy/static/css/main.73e7817c.css.map",
+    "main.1016baba.js.map": "/chasev2deploy/static/js/main.1016baba.js.map",
     "787.654a19a4.chunk.js.map": "/chasev2deploy/static/js/787.654a19a4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.41a50ec9.css",
-    "static/js/main.bc0df159.js"
+    "static/css/main.73e7817c.css",
+    "static/js/main.1016baba.js"
   ]
 }
