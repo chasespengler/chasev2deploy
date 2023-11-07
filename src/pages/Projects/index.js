@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import dater from '../../dater/dater.json'
 import { Row, Col } from 'react-bootstrap'
 import {
@@ -18,6 +18,10 @@ import {
 export default function ProjectsPage () {
 
     const projects = dater['projects']
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      });
 
     return (
         <ProjectsContainer style={{paddingBottom: '30px'}}>
