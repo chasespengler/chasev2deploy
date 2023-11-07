@@ -73,13 +73,18 @@ export default function HomePage({ toggleNavButtonsTypeHome }) {
     })
 
     const [sm, setSM] = useState(false)
+    const [xs, setXS] = useState(false)
 
     //choose the screen size 
     const handleResize = () => {
-        if (window.innerWidth < 767) {
+        if (window.innerWidth < 576) {
+            setSM(true)
+            setXS(true)
+        } else if (window.innerWidth < 767) {
             setSM(true)
         } else {
             setSM(false)
+            setXS(false)
         }
     }
     
@@ -161,7 +166,7 @@ export default function HomePage({ toggleNavButtonsTypeHome }) {
             </Col>
         </Row>
         <br></br>
-        <div class='text-center' style={{marginTop: '35vh'}}>
+        <div className='text-center' style={{marginTop: '35vh'}}>
             <h2>Coming Soon!</h2>
         </div>
         {/* <div className='{relative flex items-center h-full}' style={{'marginTop': '50px'}}>

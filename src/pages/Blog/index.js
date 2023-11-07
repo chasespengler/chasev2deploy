@@ -27,7 +27,7 @@ export default function BlogPage() {
                 <br></br>
                 <h1>Blog</h1>
             </div>
-            <div class='text-center'>
+            <div className='text-center'>
                 <h2>Coming Soon!</h2>
             </div>
             {/* <div className={'relative flex items-center'}>

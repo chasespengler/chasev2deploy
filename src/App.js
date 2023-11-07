@@ -6,6 +6,7 @@ import HomePage from './pages/Home';
 import BlogPage from './pages/Blog';
 import ProjectsPage from './pages/Projects'
 import ProjectSpecificPage from './pages/ProjectSpecific'
+import ContactPage from './pages/Contact'
 import NavBar from './components/NavBar';
 import Sidebar from './components/Sidebar'
 import {useLocation} from 'react-router-dom';
@@ -54,7 +55,7 @@ function App() {
 
   return (
     <Router>
-      <Sidebar isOpen={isOpen} toggle={toggle}/>
+      <Sidebar isOpen={isOpen} toggle={toggle} isScroll={isScroll} toggleNavButtonsType={toggleNavButtonsType}/>
       <NavBar toggle={toggle} isScroll={isScroll} toggleNavButtonsType={toggleNavButtonsType}/>
       <Routes>
         <Route exact path="/" element={<HomePage toggleNavButtonsTypeHome={toggleNavButtonsType}/>} />
@@ -62,6 +63,7 @@ function App() {
         <Route exact path="/blog" element={<BlogPage />} />
         <Route exact path="/projects" element={<ProjectsPage />} />
         <Route exact path="/projects/project/:id" element={<ProjectSpecificPage />} />
+        <Route exact path="/contact" element={<ContactPage />} />
       </Routes>
       <Foot></Foot>
     </Router>

@@ -3,14 +3,29 @@ import {
     SidebarContainer, 
     Icon, 
     CloseIcon,
-    SidebarLink,
+    SidebarLinkS,
+    SidebarLinkR,
     SidebarMenu,
     SidebarRoute,
     SideBtnWrap,
     SidebarWrapper
 } from './SidebarElements'
 
-const Sidebar = ({isOpen, toggle}) => {
+const Sidebar = ({ isOpen, toggle, isScroll, toggleNavButtonsType }) => {
+
+    function handleClickOn(){
+        toggleNavButtonsType(true);
+    };
+
+    function handleClickOff(){
+        toggleNavButtonsType(false);
+    };
+
+    function handleOtherClicks(){
+        toggle();
+        handleClickOff();
+    }
+
   return (
     <SidebarContainer isOpen={isOpen} onClick={toggle}>
         <Icon onClick={toggle}>
@@ -18,18 +33,23 @@ const Sidebar = ({isOpen, toggle}) => {
         </Icon>
         <SidebarWrapper>
             <SidebarMenu>
-                <SidebarLink to="about" onClick={toggle}>
-                    About
-                </SidebarLink>
-                <SidebarLink to="projects" onClick={toggle}>
+                { isScroll ? 
+                        <SidebarLinkS to='about' onClick={toggle}>
+                            About
+                        </SidebarLinkS> :
+                        <SidebarLinkR to='/' onClick={handleClickOn}>
+                            Home
+                        </SidebarLinkR>
+                    }
+                <SidebarLinkR to="/projects" onClick={handleOtherClicks}>
                     Projects
-                </SidebarLink>
-                <SidebarLink to="blog" onClick={toggle}>
-                    Blog
-                </SidebarLink>
+                </SidebarLinkR>
+                <SidebarLinkR to="/blog" onClick={handleOtherClicks}>
+                    Blog 
+                </SidebarLinkR>
             </SidebarMenu>
             <SideBtnWrap>
-                <SidebarRoute to="/contact" onClick={toggle}>
+                <SidebarRoute to="/contact" onClick={handleOtherClicks}>
                     Contact
                 </SidebarRoute>
             </SideBtnWrap>

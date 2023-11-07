@@ -176,6 +176,10 @@ export const AboutCarouselP = styled.p`
     align-self: center;
     font-size: 25px;
     font-family: 'Caveat', cursive;
+
+    @media screen and (max-width: 576px) {
+        font-size: 17px;
+    }
 `
 
 export const SectionHeading = styled.h3`
