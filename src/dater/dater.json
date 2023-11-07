@@ -1,0 +1,81 @@
+{
+    "homeHeroContent": "Hi, I'm Chase and welcome to my website. Here you can find a portfolio of software engineering projects I've built and worked on, a blog covering a mixed bag of interests, hobbies and the occasional luke-warm take, as well as photographs and excerpts from my travels. Enjoy!",
+    "aboutContent": [
+        "<div>As a data scientist and as a self-taught software engineer, I'm fiercely passionate about learning, the pursuit of knowledge, and teaching others. I am also passionate about enabling people and businesses by providing them the tools to live more independently both operationally and financially. <br/><br/> As a data scientist, I have channeled this passion into work surrounding the equity markets, sports analytics, and logistics using tools such as TensorFlow's Decision Forests and Time Series models, Keras, PyTorch, Pandas, Polars, scikit-learn and more in order to find order and build knowledge around areas I find fascinating. <br/><br/> Additionally, I tutor students in a variety of STEM subjects and also teach electric hydrofoil lessons on the side.",
+        "<div> As a full-stack software developer, I've channeled this passion by creating, building, and working on highly utilized products and applications such as: <br/><div style='display: flex; justify-content: center;'><div style='text-align:left;'> &bull; BitBite, an ordering and rewards platform akin to Grubhub's LevelUp <br/> &bull; Aravenda, an ecommerce inventory management platform for multiple online storefronts <br/> &bull; Orchid's Provider Network, a surrogacy journey liason for all requisite parties <br/> &bull; and more!</div></div> <br/>All using a variety of stacks, technologies, and api's including React, Ionic, Vue, Flask, and Django for frameworks and Stripe, eBay, Google Maps and more to list some api's.</div>",
+        "I was lucky enough to attend the University of Florida where I graduated with honors after studying Industrial and Systems Engineering and Economics. Go Gators! I am an avid fan of Florida Gators football, the Miami Dolphins, the Miami Heat, Florida Panthers Hockey, Chelsea FC and Formula 1 (I love the sport as a whole but, I support McLaren). <br /><br /> While at the University of Florida, I descended into obsession with data science with a focus on financial markets, thus kickstarting a long intended journey into computer science and development. I was fortunate to make lifelong friends, fall in love with a beautiful campus, and work my way through enlightening internships, all to develop and grow into the professional I am today. Namely, interning at a commodities trading house, the Florida Department of Management Services, and an equity trading firm provided the most insight for me personally. The latter offering a return position as an equity trader in New York City after graduation, allowing me to pursue a dream I'd had since high school.",
+        "Born and raised in the beautiful beach town of Delray Beach in sunny South Florida, I grew up a waterman, spending extensive amounts of time outside and in the ocean. For the last year or so, this has manifested in learning how to hydrofoil, harnessing the power of the wind and waves to traverse my local beaches riding atop a board thrust out of the water by the lift of a submerged foil (like an airplane wing). This lead to my love for travel, experiencing new and unique cultures, and embarking upon any adventure or novel experience accessible to me, solo or with friends. To quote the late Anthony Bourdain 'I want to try everything once.' Please see my travel and photography pages for updates on adventures recent and old as well as pictures from the tales. Here you can read and see all about whatever activity I'm currently most interested in.",
+        "I also thoroughly enjoy cooking, chess, photography, yoga, and pickleball. Inspired by the likes of James Barkman, Chris Burkard, Allen Stoltzfus, Ansel Adams, Martijn Doolaard, Colin O'Brady and too many more to name, I would one day love to pursue photojournalism, combining other passions of mine: storytelling, photography, and shared experiences. I also love music and have played various instruments throughout my life including the piano, trumpet, guitar, and ukulele. Some of my favorite artists include Led Zeppelin, The Rolling Stones, Orville Peck, Skeggs, Greta Van Fleet, the Grateful Dead, Boston, Ben Howard, MGMT, M83, the Red Hot Chili Peppers, the Foo Fighters, Purity Ring, Reptar, and Hans Zimmer."
+    ],
+    "projects": [
+        {   "id": 1,
+            "title": "Chess Engine and AI",
+            "summary": "A quick passion project of mine, I built this chess engine as a fun project and a quick dive into game development. I wanted to build out a chess engine so I could build bots to play against, train using ML, and study unique chess lines. The entire engine is built using Python and the pygame module. Pygame is very user friendly, and I look forward to building another game using more of its functionality in the future such as its sprite features and potentially joystick as well. Click here to check it out on GitHub!",
+            "link": "https://github.com/chasespengler/basic_chess_engine",
+            "img_src": "chess-cover.jpg"
+        },
+        {
+            "id": 2,
+            "title": "MCO Flight Prediction",
+            "summary": "What started as a mock consulting project for Orlando International Airport (MCO) where I tasked myself with building a model to predict flight delays into MCO, the project has now been rebuilt twice with two additional updated models using TensorFlow's now deprecated Boosted Trees Regressor model and TensorFlow's updated Decision Forests Gradient Boosted Trees model using classification data such as day of the week, airline, arrival time bucket, month, and origin airport. Check it out on github here.",
+            "link": "https://github.com/chasespengler/MCO_flight_predictions",
+            "img_src": "flight_delay.jpg"
+        },
+        {
+            "id": 3,
+            "title": "Automated Email Newsletter",
+            "summary": "Built out of a desire to simplify my content intake, I created an email service using Python that scrapes various data covering interest rates, housing markets, financial markets, Tweets, and other relevant news. I automated the service using PythonAnywhere’s tasks feature and the MailJet API to send emails.",
+            "link": "https://github.com",
+            "img_src": "newsletter.jpg"
+        },
+        {
+            "id": 4,
+            "title": "BitBite Mobile App",
+            "summary": "BitBite was a loyalty and rewards platform for small businesses and restaurants. Our goal was to provide a simple and inexpensive solution for small business and restaurants to the advancing POS systems that many larger companies were using such as their own customized apps seen with Chick-Fil-A or Chipotle as well as expensive POS systems like Square. These systems aren't feasible for most small businesses. Unfortunately, the majority of our clients stopped running their business or closed shop altogether during the quarantine, putting us in a compromised position. BitBite has since been shut down as of December 2021. You can stil visit the website by clicking here. BitBite Mobile App was built using Flutter and the original website and backend using Django.",
+            "link": "https://bitbite.app",
+            "img_src": "bitbite.png"
+        },
+        {
+            "id": 5,
+            "title": "IBM Full Stack Cloud Software Developer Specialization",
+            "summary": "A 12 course program focusing of cloud development, the IBM Full Stack Cloud Software Developer offered education in the entire full-stack development process including HTML, CSS, JavaScript, ReactJS and Python, NodeJS, Django, and Flask. The course also covered plenty of other material including best practices like readability and documentation as well as DevOps practices including CI/CD and automated testing. There was also extensive use of containers with Docker, Kubernetes, etc. There were numerous projects completed throughout the courses with full utilization of all that IBM Cloud has to offer including IBM Watson, OpenShift, NLU and NLP usage and more. The course culminated in a capstone project, building a full stack cloud deployed web application, which can be found on my GitHub. Certificate can be found by clicking here.",
+            "link": "https://www.coursera.org/account/accomplishments/specialization/certificate/GUVRLHRMX9H3",
+            "img_src": "ibmcloud.png"
+        }
+    ],
+    "blogs": [
+        {
+            "id": 1,
+            "title": "First Blog Post!",
+            "summary": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
+            "link": "https://github.com",
+            "img_src": "CS.png",
+            "text": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum"
+        },
+        {
+            "id": 2,
+            "title": "First Blog Post!",
+            "summary": "lorem ipsum",
+            "link": "https://github.com",
+            "img_src": "CS.png",
+            "text": "lorem ipsum"
+        },
+        {
+            "id": 3,
+            "title": "First Blog Post!",
+            "summary": "lorem ipsum",
+            "link": "https://github.com",
+            "img_src": "CS.png",
+            "text": "lorem ipsum"
+        },
+        {
+            "id": 4,
+            "title": "First Blog Post!",
+            "summary": "lorem ipsum",
+            "link": "https://github.com",
+            "img_src": "CS.png",
+            "text": "lorem ipsum"
+        }
+    ]
+    
+}
