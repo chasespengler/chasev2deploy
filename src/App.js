@@ -7,6 +7,7 @@ import BlogPage from './pages/Blog';
 import ProjectsPage from './pages/Projects'
 import ProjectSpecificPage from './pages/ProjectSpecific'
 import NavBar from './components/NavBar';
+import Sidebar from './components/Sidebar'
 import {useLocation} from 'react-router-dom';
 import Foot from './components/Footer';
 
@@ -53,6 +54,7 @@ function App() {
 
   return (
     <Router>
+      <Sidebar isOpen={isOpen} toggle={toggle}/>
       <NavBar toggle={toggle} isScroll={isScroll} toggleNavButtonsType={toggleNavButtonsType}/>
       <Routes>
         <Route exact path="/" element={<HomePage toggleNavButtonsTypeHome={toggleNavButtonsType}/>} />
