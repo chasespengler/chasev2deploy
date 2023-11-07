@@ -67,7 +67,7 @@ const NavBar = ({ toggle, isScroll, toggleNavButtonsType }) => {
                     </NavItem>
                 </NavMenu>
                 <NavBtn>
-                    <NavBtnLink to="/signin" onClick={handleClickOff}>
+                    <NavBtnLink to="/contact" onClick={handleClickOff}>
                         Contact
                     </NavBtnLink>
                 </NavBtn>
