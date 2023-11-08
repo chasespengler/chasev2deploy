@@ -132,11 +132,14 @@ export default function HomePage({ toggleNavButtonsTypeHome }) {
     <ContentContainer id="projects" className="pt-5">
         <Row style={{"position": "absolute", "width": "100%", "marginTop": "2%"}}>
             <Col xs={12} className="text-center">
-                <SectionHeading onClick={handleProjectArrow}>Projects <ArrowForward className='mt-2.5' /></SectionHeading>
+                <SectionHeading onClick={handleProjectArrow}>Projects <ArrowForward className={xs ? 'mt-1.5' : 'mt-2.5'} /></SectionHeading>
             </Col>
         </Row>
         <br></br>
-        <div className='{relative flex items-center h-full}' style={{'marginTop': '50px'}}>
+        <div style={{marginTop: '50px', display: sm ? 'flex' : 'None', justifyContent: 'center'}}>
+                <div>Check out projects I've worked on by clicking the arrow above!</div>
+        </div>
+        <div className='{relative flex items-center h-full}' style={{marginTop: '50px', display: sm ? 'None' : 'flex'}}>
             <MdChevronLeft className='cursor-pointer' style={arrowLeftStyle} onMouseLeave={() => {setIsLeftHover(false)}} onMouseEnter={() => {setIsLeftHover(true)}} onClick={() => {
                 var slider = document.getElementById('projects-slider');
                 slider.scrollLeft = slider.scrollLeft - 500;
@@ -162,7 +165,7 @@ export default function HomePage({ toggleNavButtonsTypeHome }) {
     <ContentContainer id="blog" className="pt-5">
         <Row style={{"position": "absolute", "width": "100%", "marginTop": "2%"}}>
             <Col xs={12} className="text-center">
-                <SectionHeading onClick={handleBlogArrow}>Blog <ArrowForward className='mt-2.5' /></SectionHeading>
+                <SectionHeading onClick={handleBlogArrow}>Blog <ArrowForward className={xs ? 'mt-1.5' : 'mt-2.5'} /></SectionHeading>
             </Col>
         </Row>
         <br></br>
