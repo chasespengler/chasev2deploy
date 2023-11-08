@@ -26,6 +26,7 @@ export const CarouselCardInternal = styled(Card)`
 
 export const CarouselCardImg = styled.img`
     max-height: 155px;
+    min-height: 155px;
 `
 
 export const CarouselCardBlock = styled.div`
