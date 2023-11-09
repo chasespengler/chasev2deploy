@@ -31,7 +31,7 @@
         {
             "id": 4,
             "title": "BitBite Mobile App",
-            "summary": "BitBite was a loyalty and rewards platform for small businesses and restaurants. Our goal was to provide a simple and inexpensive solution for small business and restaurants to the advancing POS systems that many larger companies were using such as their own customized apps seen with Chick-Fil-A or Chipotle as well as expensive POS systems like Square. These systems aren't feasible for most small businesses. Unfortunately, the majority of our clients stopped running their business or closed shop altogether during the quarantine, putting us in a compromised position. BitBite has since been shut down as of December 2021. You can stil visit the website by clicking here. BitBite Mobile App was built using Flutter and the original website and backend using Django.",
+            "summary": "BitBite was a loyalty and rewards platform for small businesses and restaurants. Our goal was to provide a simple and inexpensive solution for small business and restaurants to the advancing POS systems that many larger companies were using such as their own customized apps seen with Chick-Fil-A or Chipotle as well as expensive POS systems like Square. These systems aren't feasible for most small businesses. Unfortunately, the majority of our clients stopped running their business or closed shop altogether during the quarantine, putting us in a compromised position. BitBite has since been shut down as of December 2021. You can still visit the website by clicking here. BitBite Mobile App was built using Flutter and the original website and backend using Django.",
             "link": "https://bitbite.app",
             "img_src": "bitbite.png"
         },
